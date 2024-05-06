@@ -4,7 +4,6 @@ const commandLineArgs = require('command-line-args');
 const slug = require('slug');
 
 const optionDefinitions = [
-    { name: 'transform', alias: 't', type: String },
     { name: 'src', alias: 's', type: String, multiple: true, defaultOption: true }
 ];
 const args = commandLineArgs(optionDefinitions);
